@@ -10,7 +10,7 @@ from Pb2 import DEcwHisPErMsG_pb2 , MajoRLoGinrEs_pb2 , PorTs_pb2 , MajoRLoGinrE
 from cfonts import render, say
 
 
-#EMOTES BY YASH X CODEX
+#EMOTES BY VK BOY 
 
 
 
@@ -38,7 +38,7 @@ Hr = {
     'Expect': "100-continue",
     'X-Unity-Version': "2018.4.11f1",
     'X-GA': "v1 1",
-    'ReleaseVersion': "OB53"}
+    'ReleaseVersion': "OB54"}
 
 # ---- Random Colores ----
 def get_random_color():
@@ -91,7 +91,7 @@ async def EncRypTMajoRLoGin(open_id, access_token):
     major_login.event_time = str(datetime.now())[:-7]
     major_login.game_name = "free fire"
     major_login.platform_id = 1
-    major_login.client_version = "1.123.2"
+    major_login.client_version = "1.126.2"
     major_login.system_software = "Android OS 9 / API-28 (PQ3B.190801.10101846/G9650ZHU2ARC6)"
     major_login.system_hardware = "Handheld"
     major_login.telecom_operator = "Verizon"
@@ -593,9 +593,9 @@ async def MaiiiinE():
     global loop, key, iv, region, BOT_UID
 
     # BOT LOGIN UID
-    BOT_UID = int('13781786920')  # <-- FIXED BOT UID
+    BOT_UID = int('14253604737')  # <-- FIXED BOT UID
 
-    Uid, Pw = '4428929944', '51E602676D19C35FCCD2FDDDF7B8CF0786FF6C687106ED24157FCC6AD01DBD37'
+    Uid, Pw = '4369180084', '7DEC5F890BE1BEF78D4C8CF72E0F37636871CD3040459C948010CE05A070A433'
 
     open_id, access_token = await GeNeRaTeAccEss(Uid, Pw)
     if not open_id or not access_token:
